@@ -32,7 +32,7 @@ $(document).ready(function(){
             endereco: '<br> Requerido',
             cep: '<br> Requerido'
         },
-        submitHandler: function() {
+        submitHandler: function(form) {
             console.log(form)
         },
         invalidHandler: function(evento, validador) {
