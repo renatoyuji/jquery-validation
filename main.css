@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: darkolivegreen;
+    color: white;
+    text-align: center;
+}
+
+header {
+    padding: 100px 0 20px;
+}
+
+input, button{
+    padding: 5px 15px;
+    margin: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    width: 400px;
+    height: 45px;
+
+}
+
+button {
+    background-color:yellowgreen;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: mediumseagreen;
+    color: white;
+}
