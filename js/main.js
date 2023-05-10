@@ -25,12 +25,12 @@ $(document).ready(function(){
             }
         },
         messages: {
-            nome: '<br> Requerido',
-            email: '<br> Requerido',
-            telefone: '<br> Requerido',
-            cpf: '<br> Requerido',
-            endereco: '<br> Requerido',
-            cep: '<br> Requerido'
+            nome: '<br> Insira seu nome completo',
+            email: '<br> Insira seu email',
+            telefone: '<br> Insira seu telefone',
+            cpf: '<br> Insira seu CPF',
+            endereco: '<br> Insira seu endereço',
+            cep: '<br> Insira seu CEP'
         },
         submitHandler: function(form) {
             console.log(form)
